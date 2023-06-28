@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Load the trained machine learning model
-model = pickle.load(open('dt_classifier.pkl', 'rb'))
+model=pickle.load(open('dt_classifier.pkl', 'rb'))
 
 # Load the car details dataset
 car_details = pd.read_csv('CAR DETAILS.csv')
